@@ -14,7 +14,7 @@ This is a tiny library to augment the SpringType v3 JSX/TSX microframework with 
 - ✅ Ultra-fast: Uses SpringType `ref` instead of DOM CSS selector queries
 - ✅ Supports the most important jQuery methods
 - ✅ Tiny: `421 bytes` (best, brotli) - `607 bytes` (worst, umd, gz)
-- ✅ Zero runtime NPM dependencies
+- ✅ Zero dependencies
 - ✅ First class TypeScript support
 - ✅ Unit Test coverage >90%
 - ✅ TestCafé smoke tests

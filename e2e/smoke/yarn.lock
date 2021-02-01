@@ -5197,10 +5197,10 @@ split-string@^3.0.1, split-string@^3.0.2:
   dependencies:
     extend-shallow "^3.0.0"
 
-springtype@^3.1.1:
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/springtype/-/springtype-3.1.1.tgz#29717aedfc7908f8409415e13f1d7f84bf335c1b"
-  integrity sha512-qzSuVbIsnehbV+VX+ZkfGe+/0/fZoBI4uC5ALNozq7qOVfZsnI5+1oK6J+0SOqC1ykoSYhRpy2pH8OX75o/88Q==
+springtype@^3.1.2:
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/springtype/-/springtype-3.1.2.tgz#cc3b6fb2d72d7828646d801e445f4c5979beca97"
+  integrity sha512-IfnCIDifl2jDW1pus36NvUWA8wUVSDOHP5yZPH/vVjw+GIZ/iJQUnlk/fHjT6FXG9fawg21CUj3qNzYqMlnfRg==
 
 sprintf-js@~1.0.2:
   version "1.0.3"

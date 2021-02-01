@@ -1,6 +1,6 @@
 {
     "name": "st-query",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "publishConfig": {
         "access": "public"
     },
@@ -35,11 +35,12 @@
         "postbuild": "npx st-cp package.json .npmignore README.md LICENSE dist",
         "pree2e": "ts-node ./scripts/e2e-build-all.ts",
         "e2e": "testcafe chrome:headless e2e/**/__e2e__/*",
-        "test": "jest --verbose --watch --coverage",
+        "test": "jest --verbose --coverage",
+        "test:watch": "jest --verbose --watch --coverage",
         "test:ci": "jest --verbose --runInBand",
         "prerelease": "yarn build",
-        "release": "cd dist && yarn publish",
-        "measure": "gzip dist/index.js && ls -lah dist/index.js.gz && rm dist/index.js.gz"
+        "release": "cd dist",
+        "postrelease": "yarn publish"
     },
     "author": "Aron Homberg <info@aron-homberg.de>",
     "license": "MIT",
@@ -48,7 +49,7 @@
         "@types/node": "^13.13.2",
         "jest": "^26.6.3",
         "prettier": "^2.2.1",
-        "springtype": "^3.1.1",
+        "springtype": "^3.1.2",
         "testcafe": "^1.10.1",
         "ts-jest": "^26.5.0",
         "ts-node": "^9.1.1",
