@@ -1,0 +1,9 @@
+node_modules
+dist
+.vscode
+coverage
+.idea
+.DS_Store
+.cache
+.eslintcache
+yarn-error.log
