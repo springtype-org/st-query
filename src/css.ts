@@ -8,7 +8,9 @@ export const addSingleClass = (ref: Element, className: string) => {
 
 export const addClass = (ref: Element, impl: API) => (className: Array<string> | string) => {
   if (className instanceof Array) {
-    className.forEach((className) => addSingleClass(ref, className));
+    for (let i=0; i<className.length; i++) {
+      addSingleClass(ref, className[i]);
+    }
   } else {
     addSingleClass(ref, className);
   }
@@ -23,7 +25,9 @@ export const removeSingleClass = (ref: Element, className: string) => {
 
 export const removeClass = (ref: Element, impl: API) => (className: Array<string> | string) => {
   if (className instanceof Array) {
-    className.forEach((className) => removeSingleClass(ref, className));
+    for (let i=0; i<className.length; i++) {
+      removeSingleClass(ref, className[i]);
+    }
   } else {
     removeSingleClass(ref, className);
   }
