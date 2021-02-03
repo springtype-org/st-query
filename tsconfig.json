@@ -16,5 +16,5 @@
     "jsxFactory": "tsx"
   },
   "exclude": ["node_modules", "**/node_modules/*"],
-  "include": ["src", "e2e", "jest.config.js"]
+  "include": ["src", "e2e", "scripts", "jest.config.js"]
 }

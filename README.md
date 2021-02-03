@@ -13,10 +13,10 @@ This is a tiny library to augment the SpringType v3 JSX/TSX microframework with 
 - ✅ Supports JSX/TSX for runtime DOM mutations
 - ✅ Ultra-fast: Uses SpringType `ref` instead of DOM CSS selector queries
 - ✅ Supports the most important jQuery methods
-- ✅ Tiny: `421 bytes` (best, brotli) - `607 bytes` (worst, umd, gz)
+- ✅ Tiny: `431 bytes` (best, brotli) - `605 bytes` (worst, umd, gz)
 - ✅ Zero dependencies
 - ✅ First class TypeScript support
-- ✅ Unit Test coverage >90%
+- ✅ Unit Test coverage almost 100%
 - ✅ TestCafé smoke tests
 
 <h2 align="center">API docs</h2>
@@ -95,7 +95,7 @@ Thank you so much for supporting us financially! 🙏🏻😎🥳👍
 
 <h2 align="center">Maintainers</h2>
 
-SpringType is brought to you by:
+`st-query` is brought to you by:
 
 <table>
   <tbody>
@@ -105,18 +105,6 @@ SpringType is brought to you by:
         src="https://avatars3.githubusercontent.com/u/454817?v=4&s=150">
         </br>
         <a href="https://github.com/kyr0">Aron Homberg</a>
-      </td>
-      <td align="center">
-        <img width="150" height="150"
-        src="https://avatars2.githubusercontent.com/u/17221813?s=150&v=4">
-        </br>
-        <a href="https://github.com/jsdevtom">Tom</a>
-      </td>
-      <td align="center">
-        <img width="150" height="150"
-        src="https://avatars2.githubusercontent.com/u/12079044?s=150&v=4">
-        </br>
-        <a href="https://github.com/mansi1">Michael Mannseicher</a>
       </td>
     </tr>
   <tbody>

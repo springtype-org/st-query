@@ -1,7 +1,7 @@
-import { addClass, removeClass, toggleClass, hasClass } from "./css";
-import { attr, empty, html, remove, replaceWith, val } from "./dom";
-import { on, off } from "./events";
-import { API } from "./interface/api";
+import { addClass, removeClass, toggleClass, hasClass } from './css';
+import { attr, empty, html, remove, replaceWith, val } from './dom';
+import { on, off } from './events';
+import { API } from './interface/api';
 
 let impl: API;
 
@@ -12,7 +12,7 @@ export const $ = (ref: Element) => {
     empty: empty(ref, impl),
     html: html(ref, impl),
     remove: remove(ref, impl),
-    replaceWith: replaceWith(ref, impl),
+    replaceWith: replaceWith(ref),
     addClass: addClass(ref, impl),
     removeClass: removeClass(ref, impl),
     toggleClass: toggleClass(ref, impl),

@@ -1,17 +1,15 @@
-const { exec } = require("child_process");
+import { exec }  from 'child_process';
 
-const e2eProjects = ["smoke"];
+const e2eProjects = ['smoke'];
 
-const getPackageDir = (dirName: string) => "./e2e/" + dirName;
-
-for (let packageDir of e2eProjects) {
-  process.chdir(getPackageDir(packageDir));
+e2eProjects.forEach((packageDir: string) => {
+  process.chdir(`./e2e/${packageDir}`);
 
   console.log(`[i] Installing e2e project ${packageDir}...`);
-  exec("yarn");
+  exec('yarn');
 
   console.log(`[i] Building e2e project ${packageDir}...`);
-  exec("yarn build");
+  exec('yarn build');
 
-  process.chdir("../../");
-}
+  process.chdir('../../');
+});
