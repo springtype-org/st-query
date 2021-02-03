@@ -52,7 +52,6 @@ Method        | Examples
 `attr` | Set an attribute of an input element: `$(formInputRef).attr('tabIndex', '2')`
 `val` | Get a value of a checkbox: `$(formInputRef).val()`
 `val` | Set the value of an input element: `$(formInputRef).val(2)`
-`html` | Get the `innerHTML` of an element: `$(formInputRef).html()`
 `html` | Render VDOM and replace the DOM *children* of an element: `$(formInputRef).html(<div>Something else</div>)`
 `replaceWith` | Render DOM and replace the DOM element *itself* with it: `$(formInputRef).replaceWith(<div>Something else</div>)`
 `empty` | Remove all children of an element: `$(formInputRef).empty()`
